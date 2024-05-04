@@ -233,7 +233,17 @@ By using command ```grid [xSpacing [ySpacing [xOrigin yOrigin]]] ```
 
 ![Screenshot from 2024-05-01 14-42-22](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/c4367393-414c-4cb4-846e-d98ce94412a5)
 
-teps to convert magic layout to std cell LEF
+Steps to convert magic layout to std cell LEF :
+
+Chnage the name of the mag file by using command ``` save [name of the cell] ``` .
+
+![Screenshot (615)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/dc041137-73e1-4a27-9fe3-0a2d6e504675)
+
+Open the mag file in magic with changed name.
+
+Write the lef file by using command : ``` lef write ``` .
+
+![Screenshot (620)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/879c7b86-8898-4d32-b3d9-a7d6315a791e)
 
 
 
