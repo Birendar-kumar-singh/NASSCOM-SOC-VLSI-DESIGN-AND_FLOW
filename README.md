@@ -245,6 +245,11 @@ Write the lef file by using command : ``` lef write ``` .
 
 ![Screenshot (620)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/879c7b86-8898-4d32-b3d9-a7d6315a791e)
 
+Content of the New lef file:
+
+![Screenshot from 2024-05-05 00-09-32](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/b485df8b-5256-4fca-af01-a07c774f58cb)
+
+
 
 
 
