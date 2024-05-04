@@ -39,7 +39,7 @@ After Design Preparation run the Synthesis command ```run_synthesis```
 
 Assignment:
 
-CALCULATIION OF FLIP RATIO : Check the statistics of picorv32a in synthesis reports
+CALCULATION OF FLOP RATIO : Check the statistics of picorv32a in synthesis reports
 
 ![Screenshot from 2024-05-04 15-02-54](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/0bd8b3bf-27e2-4f6a-9db4-bfaa86d03730)
 
@@ -50,6 +50,10 @@ flop ratio = no. of d flip flop/no. of cells
            = 0.1084
            = 10.84%
 ```
+
+day 2. Good floorplan vs bad floorplan and introduction to library cells
+
+
 
 
 
