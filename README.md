@@ -185,6 +185,44 @@ Rise propagation delay :
 0.00007ns
 ```
 
+Checking DRC errors
+
+Download the file  by Using command```wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz ``` . 
+
+By Using command : ``` magic -d XR ``` open the magic tool. :
+
+![Screenshot from 2024-05-04 20-05-41](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/7f7cf55f-5266-4b01-8213-9bbb37943b32)
+
+load the ``` met3.mag ``` file from the download file. :
+
+![Screenshot from 2024-05-04 20-20-25](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/94768002-7e2e-43c5-b414-79cd286bbf2b)
+
+To view the DRC error select the component and type the command : ```drc why ``` :
+
+![Screenshot from 2024-05-04 20-38-51](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/1e38d341-d587-41cd-b2d4-4ca6785b3fbc)
+
+![Screenshot from 2024-05-04 20-39-10](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/26c2a955-a230-446d-81ef-98910a081d49)
+
+Fixing Poly.9 Error :
+
+Load the Poly.9 mag file:
+
+![Screenshot from 2024-05-04 20-24-05](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/98e36d79-3a39-4eff-aa10-42fb769f4eaa)
+
+Check the compontent and the DRC error:
+
+![Screenshot from 2024-05-04 20-46-27](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/49aa4dc9-5f58-4a8d-bd27-1d9a09809395)
+
+![Screenshot from 2024-05-04 20-49-24](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/42d9b4cb-5575-4ce6-bc37-e0c1223b16cb)
+
+
+
+
+
+
+
+
+
 
 
 
