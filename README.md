@@ -249,6 +249,15 @@ Content of the New lef file:
 
 ![Screenshot from 2024-05-05 00-09-32](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/b485df8b-5256-4fca-af01-a07c774f58cb)
 
+Steps to configure synthesis settings to fix slack and include vsdinv :
+
+Copy these ```.lib``` and ```.lef``` file  ``` sky130_fd_sc_hd__slow.lib sky130_fd_sc_hd__typical.lib sky130_vsdinv.lef ``` to src of the picorv32a .
+
+Change the ```config.tcl``` file of the design picorv32a :
+
+![Screenshot from 2024-05-05 00-29-59](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/524f106c-f36a-408b-8c91-893238ffa0e8)
+
+
 
 
 
