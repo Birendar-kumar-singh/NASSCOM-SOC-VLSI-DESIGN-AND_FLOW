@@ -111,6 +111,85 @@ After the placement run invoke the Magic to view the Layout with placement def f
 
 # Day 3. Design library cell using Magic Layout and ngspice characterization
 
+Labs: 
+
+CMOS inverter ngspice simulations
+
+Clone the repo ```https://github.com/nickson-jose/vsdstdcelldesign.git```
+
+Open the layout in Magic tool. Using the command ```magic -T {absolute_path_of_the_tech_file_of_the_cell} {absolute_path_of_the_mag_file_of_the_cell} ```
+
+![Screenshot from 2024-05-01 08-57-03](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/d60df769-6d69-4ad6-a876-aa9448a99c78)
+
+Layout Of The Cell :
+
+![Screenshot from 2024-05-01 08-56-43](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/957afa0b-d1b7-47d5-af3c-d81c565e0c60)
+
+Extracted the Spice Deck of the cell:
+
+Using commands :
+```
+% extract all
+% ext2spice cthresh 0 rthresh 0
+% ext2spice
+```
+
+![Screenshot from 2024-05-01 10-22-12](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/beaf5f77-04a4-4c9d-972c-0d55bc2f61cb)
+
+Modified the Spice deck file:
+
+![Screenshot from 2024-05-04 18-56-26](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/3cdce39c-8e15-4a15-9f1d-bf4ca080c5a2)
+
+Run the commnad ``` ngspice {file_name} ```
+
+![Screenshot from 2024-05-04 00-07-15](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/48835966-2ccf-4fc9-ba5c-1d26d3b39638)
+
+Run the command ``` plot y vs time a ```
+
+![Screenshot from 2024-05-04 00-09-02](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/5abc07c9-f174-4db9-815e-1ce31f189b2e)
+
+Calculating input rise time:
+
+![Screenshot (1318)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/84f3be2f-b46f-4d97-8e17-c3f218bec9c1)
+
+```
+20% of 3.3V = 0.66V
+80% of 3.3V = 2.64V
+From the above data:
+input rist time :
+4.08-4.02 = 0.06 ns
+```
+
+Calculating output fall time:
+
+![Screenshot (1319)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/042c10c3-530f-43c9-8606-a262a34cc3bf)
+
+```
+80% of 3.3V = 2.64v
+20% of 3.3V = 0.66v
+From the above data:
+output fall time :
+4.09-4.05 = 0.04 ns
+```
+
+Calculating Rise propagation delay:
+
+![Screenshot (1320)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/e07c966f-8710-4fe7-b659-dc8edcfc1a2f)
+
+![Screenshot (1321)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/9d34987a-de28-43ec-b5ad-2cb138483083)
+
+```
+50% of 3.3V = 1.65V
+From the above data:
+Rise propagation delay :
+0.00007ns
+```
+
+
+
+
+
+
 
 
 
