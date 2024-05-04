@@ -185,7 +185,7 @@ Rise propagation delay :
 0.00007ns
 ```
 
-Checking DRC errors
+Checking DRC errors :
 
 Download the file  by Using command```wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz ``` . 
 
