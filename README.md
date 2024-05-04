@@ -16,7 +16,7 @@ Openlane :
 
  Design Preparation Step:
 
- step 1. Invok the docker 
+ step 1. Invoke the docker 
  
  ![Screenshot from 2024-05-04 14-34-15](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/e52c5d40-7f31-487a-a291-5e8d0e56b780)
 
@@ -57,7 +57,7 @@ LABs:
 
 followed below steps:
 
-step 1. Invok the docker
+step 1. Invoke the docker
 
 step 2. Run the flow in interactive way
 
