@@ -257,6 +257,18 @@ Change the ```config.tcl``` file of the design picorv32a :
 
 ![Screenshot from 2024-05-05 00-29-59](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/524f106c-f36a-408b-8c91-893238ffa0e8)
 
+Run the Flow from starting 
+
+After the design prep Step run this commands:
+
+```
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+add_lefs -src $lefs
+```
+
+![Screenshot (1329)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/90297cfd-4072-4df1-9f32-e89222494278)
+
+
 
 
 
