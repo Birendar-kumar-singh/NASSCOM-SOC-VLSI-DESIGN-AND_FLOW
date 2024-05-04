@@ -82,7 +82,7 @@ Goto folder : runs -> current run -> results -> floorplan
 ![Screenshot from 2024-04-27 17-33-25](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/a27e03e2-3403-4498-8967-ab45dff743ca)
 
 Use the command ``` magic -T /{path_of_the_pdks}/pdks/sky130A/libs.tech/magic/sky130A.tech lef read /{path_of_the_merged_lef_file_after_run}/merged.lef def read /{path_of_the_picorv32a.floorplan.def} ``` 
-to invok the Magic tool foor view of the floorplan
+to invoke the Magic tool for view of the floorplan
 
 ![Screenshot from 2024-04-27 17-34-55](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/0975220d-948a-48ba-af94-319882f993e1)
 
