@@ -51,7 +51,7 @@ flop ratio = no. of d flip flop/no. of cells
            = 10.84%
 ```
 
-day 2. Good floorplan vs bad floorplan and introduction to library cells
+Day 2. Good floorplan vs bad floorplan and introduction to library cells
 
 
 
