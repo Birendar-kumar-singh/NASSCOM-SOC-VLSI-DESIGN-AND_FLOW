@@ -215,6 +215,27 @@ Check the compontent and the DRC error:
 
 ![Screenshot from 2024-05-04 20-49-24](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/42d9b4cb-5575-4ce6-bc37-e0c1223b16cb)
 
+# Day 4. Pre-layout timing analysis and importance of good clock tree
+
+LABs:
+
+Steps to convert grid info to track info:
+
+Track Info:
+
+![Screenshot from 2024-05-04 23-34-32](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/21fd79fb-b7bd-4562-be0d-41ed754eaac0)
+
+Coverting to grid info :
+
+By using command ```grid [xSpacing [ySpacing [xOrigin yOrigin]]] ```
+
+![Screenshot from 2024-05-01 14-42-32](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/211db10b-1970-4de3-a53c-76565d6108fb)
+
+![Screenshot from 2024-05-01 14-42-22](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/c4367393-414c-4cb4-846e-d98ce94412a5)
+
+teps to convert magic layout to std cell LEF
+
+
 
 
 
