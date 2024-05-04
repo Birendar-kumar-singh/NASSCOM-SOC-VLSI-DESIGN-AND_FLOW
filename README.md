@@ -1,6 +1,6 @@
 # NASSCOM-SOC-VLSI-DESIGN-AND_PLANNING workshop
 
-Day 1. Inception of open-source EDA, OpenLane and Sky 130 PDK
+# Day 1. Inception of open-source EDA, OpenLane and Sky 130 PDK
 
 Introduction:
 
@@ -51,7 +51,7 @@ flop ratio = no. of d flip flop/no. of cells
            = 10.84%
 ```
 
-Day 2. Good floorplan vs bad floorplan and introduction to library cells
+# Day 2. Good floorplan vs bad floorplan and introduction to library cells
 
 LABs:
 
@@ -109,7 +109,7 @@ After the placement run invoke the Magic to view the Layout with placement def f
 
 ![Screenshot from 2024-04-28 14-55-27](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/505a4e65-6a96-4b0a-89b8-3e1818474900)
 
-Day 3. Design library cell using Magic Layout and ngspice characterization
+# Day 3. Design library cell using Magic Layout and ngspice characterization
 
 
 
