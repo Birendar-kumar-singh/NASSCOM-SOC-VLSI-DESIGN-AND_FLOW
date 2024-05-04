@@ -156,7 +156,7 @@ Calculating input rise time:
 20% of 3.3V = 0.66V
 80% of 3.3V = 2.64V
 From the above data:
-input rist time :
+input rise time :
 4.08-4.02 = 0.06 ns
 ```
 
@@ -174,9 +174,9 @@ output fall time :
 
 Calculating Rise propagation delay:
 
-![Screenshot (1320)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/e07c966f-8710-4fe7-b659-dc8edcfc1a2f)
-
 ![Screenshot (1321)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/9d34987a-de28-43ec-b5ad-2cb138483083)
+
+![Screenshot (1320)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/e07c966f-8710-4fe7-b659-dc8edcfc1a2f)
 
 ```
 50% of 3.3V = 1.65V
