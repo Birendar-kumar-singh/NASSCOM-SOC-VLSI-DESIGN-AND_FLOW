@@ -236,7 +236,7 @@ FIX :
 
 Load the changed tech file by command ```  tech load sky130A.tech ```
 
-![Screenshot (1412)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/82e11dc7-eeac-426f-a6c3-c3092ea84189)
+![Screenshot (1412)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/c3d8b78b-e130-40db-9797-414dc80b65b8)
 
 Check the DRC again by command ``` drc check ```
 
