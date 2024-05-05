@@ -280,7 +280,7 @@ Run the Placement by command ```run_placement```
 
 Open the magic Tool.
 
-![Screenshot from 2024-04-27 17-34-55](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/0975220d-948a-48ba-af94-319882f993e1)
+![Screenshot from 2024-04-28 14-55-27](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/505a4e65-6a96-4b0a-89b8-3e1818474900)
 
 Select the vsdinv cell
 
@@ -289,6 +289,41 @@ Select the vsdinv cell
 Expand and check it perpectly allign :
 
 ![Screenshot from 2024-05-01 23-00-06](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/4686ad0a-57e9-4dac-a8d9-4c4a344f7887)
+
+Steps to configure OpenSTA for post-synth timing analysis :
+
+Create a file ``` pre_sta.conf ```
+
+![Screenshot (1337)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/03ea5e91-2561-43bb-97ea-54aad4924d7a)
+
+Create another file ```my_base.sdc``` to invoke the varibale of openlane to OpenSta.
+
+![Screenshot (1338)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/9fb6f1a2-54e2-4e98-a206-9f07011eee6b)
+
+Run the command ```sta pre_sta.conf``` to invoke OpenSta.
+
+![Screenshot (1339)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/873c1fed-29c1-4b4b-8e78-492055c5559e)
+
+Steps to run CTS using TritonCTS :
+
+After improving the timming write the verilog by using command ```write_verilog /{path_of_the_previous_design_verilog} ``` after synthesis.
+Run floorplan and Placement with taking the new verilog after the improving timming.
+
+![Screenshot (1340)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/35981d63-59ba-46cf-9c16-8ce71f64666a)
+
+Run CTS by using command ```run_cts```
+
+![Screenshot (1341)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/fb7ad4fb-3db8-44aa-8229-4f96f3b09fa7)
+
+New ```_cts.v``` File will be create in the result of synthesis.
+
+![Screenshot (1342)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/9c4eccab-69d9-42ae-8e6b-d363be3a6635)
+
+
+
+
+
+
 
 
 
