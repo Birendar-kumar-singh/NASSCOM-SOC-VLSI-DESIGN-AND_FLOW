@@ -317,7 +317,70 @@ Run CTS by using command ```run_cts```
 
 New ```_cts.v``` File will be create in the result of synthesis.
 
-![Screenshot (1342)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/9c4eccab-69d9-42ae-8e6b-d363be3a6635)
+![Screenshot (1342)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/04ba8363-e675-4d88-ada9-fd0d48b5eb4b)
+
+Steps to analyze timing with real clocks using OpenSTA :
+To analyze timing in Openlane flow , need to invoke openroad by using command ```openroad``` .
+Need to create database in openroad.
+To create follow the below commands.
+```
+read_lef /openLANE_flow/designs/picorv32a/runs/04-05_21-50/tmp/merged.lef
+read_def /openLANE_flow/designs/picorv32a/runs/04-05_21-50/results/cts/picorv32a.cts.def
+write_db pico_cts.db
+read_db pico_cts.db
+read_verilog /openLANE_flow/designs/picorv32a/runs/04-05_21-50/results/synthesis/picorv32a.synthesis_cts.v
+read_liberty $::env(LIB_SYNTH_COMPLETE)
+read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
+set_propagated_clock [all_clocks]
+report_checks -path_delay min_max -format full_clock_expanded -digits 4
+```
+
+
+![Screenshot (1343)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/f8686158-6e99-4ee7-84dd-6caa99783341)
+
+![Screenshot (1345)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/1380a479-858f-4195-b519-7b2517e00053)
+
+Steps to execute OpenSTA with right timing libraries and CTS assignment :
+
+ Remove sky130_fd_sc_hd__clkbuf_1 from the list by using command : ``` set ::env(CTS_CLK_BUFFER_LIST) [lreplace $::env(CTS_CLK_BUFFER_LIST) 0 0] ```
+
+ Check the current value of CTS_CLK_BUFFER_LIST by using the command : ```echo $::env(CTS_CLK_BUFFER_LIST)```
+
+ Check the current value of CURRENT_DEF by using the command :  ``` echo $::env(CURRENT_DEF) ```
+
+ Set def as placement def by using command : ``` set ::env(CURRENT_DEF) /openLANE_flow/designs/picorv32a/runs/04-05_21-50/results/placement/picorv32a.placement.def ```
+
+ Run cts by using the command ```run_cts```.
+
+ Check the current value of CTS_CLK_BUFFER_LIST by using the command : ```echo $::env(CTS_CLK_BUFFER_LIST) ```
+
+ Steps to observe impact of bigger CTS buffers on setup and hold timing :
+
+  Follow the below steps to open the Openroad tool :
+  ```
+  read_lef /openLANE_flow/designs/picorv32a/runs/04-05_21-50/tmp/merged.lef
+  read_def /openLANE_flow/designs/picorv32a/runs/04-05_21-50/results/cts/picorv32a.cts.def
+  write_db pico_cts1.db
+  read_db pico_cts1.db
+  read_verilog /openLANE_flow/designs/picorv32a/runs/04-05_21-50/results/synthesis/picorv32a.synthesis_cts.v
+  read_liberty $::env(LIB_SYNTH_COMPLETE)
+  read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
+  set_propagated_clock [all_clocks]
+  report_checks -path_delay min_max -format full_clock_expanded -digits 4
+  report_clock_skew -hold
+  report_clock_skew -setup
+
+  ```
+
+![Screenshot (1346)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/22abe49c-7c24-4120-84a8-cd3c317dcb9d)
+
+![Screenshot (1347)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/a706514b-4430-4a03-a1fe-f9413265d2f7)
+
+
+
+
+
+
 
 
 
