@@ -307,7 +307,7 @@ Run the command ```sta pre_sta.conf``` to invoke OpenSta.
 Steps to run CTS using TritonCTS :
 
 After improving the timming write the verilog by using command ```write_verilog /{path_of_the_previous_design_verilog} ``` after synthesis.
-Run floorplan and Placement with taking the new verilog after the improving timming.
+Run floorplan and Placement with the new verilog after the improving timing.
 
 ![Screenshot (1340)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/35981d63-59ba-46cf-9c16-8ce71f64666a)
 
