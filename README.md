@@ -274,7 +274,25 @@ After running the commands ``` run_synthesis ``` check that your custom cell in 
 
 Run the floorplan by command ```run_floorplan```
 
+Run the Placement by command ```run_placement```
+
 ![Screenshot (1335)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/1111613b-d253-4ce6-b403-83c5a8c50506)
+
+Open the magic Tool.
+
+![Screenshot from 2024-04-27 17-34-55](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/0975220d-948a-48ba-af94-319882f993e1)
+
+Select the vsdinv cell
+
+![Screenshot from 2024-05-01 22-59-35](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/aa19af73-a936-4a5e-90f4-6feaccd0d481)
+
+Expand and check it perpectly allign :
+
+![Screenshot from 2024-05-01 23-00-06](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/4686ad0a-57e9-4dac-a8d9-4c4a344f7887)
+
+
+
+
 
 
 
