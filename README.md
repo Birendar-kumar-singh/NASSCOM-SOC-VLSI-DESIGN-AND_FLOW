@@ -35,7 +35,7 @@ After Design Preparation run the Synthesis command ```run_synthesis```
 
 ![Screenshot from 2024-05-04 15-01-11](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/e512e63f-c0e2-47b4-ac70-c51fb4196375)
 
-![Screenshot from 2024-05-04 15-02-30](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/903b79a4-a2e8-4344-9ce6-e1b461ab094c)
+![Screenshot from 2024-05-04 15-02-30](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/fbe7be4c-0788-41a1-8182-de3064551797)
 
 Assignment:
 
