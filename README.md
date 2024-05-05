@@ -268,6 +268,16 @@ add_lefs -src $lefs
 
 ![Screenshot (1329)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/90297cfd-4072-4df1-9f32-e89222494278)
 
+After running the commands ``` run_synthesis ``` check that your custom cell in present in the design.
+
+![Screenshot (1336)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/560467de-5ac4-4484-a6d6-744d71e7e636)
+
+Run the floorplan by command ```run_floorplan```
+
+![Screenshot (1335)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/1111613b-d253-4ce6-b403-83c5a8c50506)
+
+
+
 
 
 
