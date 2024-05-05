@@ -215,6 +215,36 @@ Check the compontent and the DRC error:
 
 ![Screenshot from 2024-05-04 20-49-24](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/42d9b4cb-5575-4ce6-bc37-e0c1223b16cb)
 
+![Screenshot from 2024-05-05 19-22-33](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/371dd58b-0c2e-42c2-abf1-90c5aae18ba9)
+
+From above pics the spacing is 220um which doesn't fulfill the min requirements.
+
+Lets Fix this DRC error by changing the ```sky130A.tech``` file. :
+
+From tech file min spacing is defined only between poly resistors and diffusion and N-tap.
+No spacing between poly resistors and poly.
+
+![Screenshot (1408)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/688efa8d-77cb-48d0-b3b1-2b646122eec8)
+
+![Screenshot (1409)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/fb838e93-7d99-471a-8693-d01a857a7da8)
+
+FIX :
+
+![Screenshot (1410)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/096cac5d-772a-410b-a746-9e03cce45606)
+
+![Screenshot (1411)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/3bbafae5-a898-4052-b837-08122d9ba541)
+
+Load the changed tech file by command ```  tech load sky130A.tech ```
+
+![Screenshot (1412)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/82e11dc7-eeac-426f-a6c3-c3092ea84189)
+
+Check the DRC again by command ``` drc check ```
+
+![Screenshot (1413)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/6660026c-20ba-424c-becd-daa94d4a35ec)
+
+![Screenshot (1414)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/fa7c7b99-1349-4493-83cf-faeff4db1134)
+
+
 # Day 4. Pre-layout timing analysis and importance of good clock tree
 
 LABs:
