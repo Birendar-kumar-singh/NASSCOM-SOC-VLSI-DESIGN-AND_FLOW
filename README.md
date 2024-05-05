@@ -73,7 +73,7 @@ step 5. run the command ```run_floorplan```
 
 floorplan completion:
 
-![Screenshot from 2024-05-04 16-02-39](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/1942e37a-f9f6-4efa-bc5a-552abc09ae83)
+![Screenshot (1348)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/558011e1-fbd3-4a84-a4b8-dc68ba14b76b)
 
 Review floorplan files and steps to view floorplan:
 
