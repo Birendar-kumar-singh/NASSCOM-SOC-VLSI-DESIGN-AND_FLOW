@@ -244,6 +244,22 @@ Check the DRC again by command ``` drc check ```
 
 ![Screenshot (1414)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/fa7c7b99-1349-4493-83cf-faeff4db1134)
 
+Exercise to describe DRC error as geometrical construct :
+
+![Screenshot from 2024-05-05 22-13-29](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/324a4fd5-7b5c-440c-a412-95d7bf464790)
+
+Above layout we have some violations, Open tech file and make changes as shown :
+
+![Screenshot (1416)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/f11fa0a1-84ed-4899-8765-2b1c5af55e9f)
+
+![Screenshot (1417)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/54b0cdb2-3b2b-4eae-9abd-36ebef09e9de)
+
+Lab challenge to find missing or Incorrect rules and fix them:
+
+After updating the tech file load it again and check for errors:
+
+![Screenshot (1419)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/f77b95ae-753b-435c-b4c4-063d3053020a)
+
 
 # Day 4. Pre-layout timing analysis and importance of good clock tree
 
