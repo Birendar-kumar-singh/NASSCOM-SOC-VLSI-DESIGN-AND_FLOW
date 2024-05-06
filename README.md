@@ -424,9 +424,39 @@ Steps to execute OpenSTA with right timing libraries and CTS assignment :
 
 # Day 5. Final steps for RTL2GDS using tritonRoute and openSTA
 
+LABs:
 
+Steps to build power distribution network:
 
+Build Power distribution by using the command ``` gen_pdn ```
 
+![Screenshot (1421)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/c0f7120c-6762-48f5-9d45-98c214c66d15)
+
+![Screenshot (1422)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/bc2f6caf-5f0f-4f29-8eba-63bb4785ec20)
+
+Invoke the tool magic with reading def file after the power distribution stage:
+
+![Screenshot (1423)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/ad57e1fb-2b9e-46ea-bb10-15b8415bb316)
+
+Routing strategy :
+
+Run routing by using command ```run_routing```
+
+![Screenshot (1424)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/2b85a10a-36fb-4b54-8bdb-e268cbfce58d)
+
+![Screenshot (1425)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/24cc9d42-e432-4a08-a80c-e3434b24640e)
+
+![Screenshot (1426)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/73190c23-d56b-4d2c-acfe-2876f6dfd33f)
+
+![Screenshot (1427)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/29e1fe14-07b6-4f67-bd29-32be13968308)
+
+![Screenshot (1428)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/59deb1ad-c997-4507-b9f0-ab63a30fca60)
+
+Post Routing :
+
+Invoke the tool magic with reading def file after the routing stage:
+
+![Screenshot (1429)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/f97412d2-ec7c-412d-a4cd-c08526e5dcd6)
 
 
 
