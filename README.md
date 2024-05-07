@@ -458,7 +458,25 @@ Invoke the magic tool with reading def file after the routing stage:
 
 ![Screenshot (1430)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/904d70c3-870e-44f6-8b41-a0877e08eeb8)
 
+After Routing png of picorv32a.def.png :
 
+![Screenshot (1431)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/2f80b1dd-8c18-433f-aaf9-c2240fc3fdbe)
+
+
+# Refrences
+
+ - GitHub repo for vsd standard cell design : [https://github.com/nickson-jose/vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
+ 
+ - Github repo for google skywater-pdk : [https://github.com/google/skywater-pdk](https://github.com/google/skywater-pdk)
+ 
+ - Link for the skywater-pdk docs : [https://skywater-pdk--136.org.readthedocs.build/en/136/](https://skywater-pdk--136.org.readthedocs.build/en/136/)
+
+ - Link for the drc test [ http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz ]( http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz )
+
+# Acknowledgements
+
+- Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
+- Nickson P Jose, Teaching Assistant (VSD Corp. Pvt. Ltd)
 
 
 
