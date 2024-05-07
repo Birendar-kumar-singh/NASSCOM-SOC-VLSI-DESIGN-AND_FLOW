@@ -454,7 +454,7 @@ Run routing by using command ```run_routing```
 
 Post Routing :
 
-Invoke the tool magic with reading def file after the routing stage:
+Invoke the magic tool with reading def file after the routing stage:
 
 ![Screenshot (1429)](https://github.com/Birendar-kumar-singh/NASSCOM-SOC-VLSI-DESIGN-AND_FLOW/assets/134377293/f97412d2-ec7c-412d-a4cd-c08526e5dcd6)
 
